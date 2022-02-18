@@ -12,12 +12,16 @@ public class functionaProgramming
 
         printList(list);
         printListFunc(list);
+        printList2(list);
     }
 
     private static void printIntList(List<Integer> intList) {
         intList.stream().forEach(element -> System.out.println(element));
     }
 
+    private static void printList2(List<String> list)  {
+        list.stream().forEach(System.out::println);
+    }
 
     private static void printList(List<String> list) {
         for(String string : list){
