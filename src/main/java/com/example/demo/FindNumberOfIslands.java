@@ -46,6 +46,6 @@ public class FindNumberOfIslands {
                               {'0', '0', '0', '0', '0'},
                               {'1', '0', '1', '1', '0'}};
 
-        System.out.println(numIslands(grid));
+        System.out.println("number of islands found : " + String.valueOf(numIslands(grid)));
     }
 }
