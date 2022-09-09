@@ -43,9 +43,9 @@ public class DecodeString {
 
     public static void main(String[] args) {
 
-//        String s = "3[a2[c]]"; //"accaccacc"
+        String s = "3[a2[c]]"; //"accaccacc"
 //        String s = "abc3[cd]xyz"; //"accaccacc"
-        String s = "100[leetcode]"; //"accaccacc"
+//        String s = "100[leetcode]"; //"accaccacc"
 //        String s = "2[abc]3[cd]ef"; //"accaccacc"
 //        String s = "3[a2[c]]"; //"accaccacc"
 
